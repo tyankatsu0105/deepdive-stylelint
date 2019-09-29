@@ -1,0 +1,12 @@
+// 独自定義ファイル
+// ここはコメント部分
+
+// {{}}で囲われたところがstyle定義箇所
+// -ないプロパティはlower camel
+// -あるプロパティは""で囲う
+{{
+  backgroundColor => "#FFFFFF",
+  "align-items" => "center"
+}}
+
+{{backgroundColor => "#FFFFFF","align-items" => "center"}}

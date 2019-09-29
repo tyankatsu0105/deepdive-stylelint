@@ -1,8 +1,6 @@
 module.exports = {
-  plugins: ["../lib/index.js"],
-  rules: {
-    "ecss/comment-check-prefix-browser-hacks": true,
-    "ecss/declaration-comment-magic-numbers-before": true,
-    "ecss/background-no-base64": true
-  }
+  processors: [
+    ["../lib/index.js", {target: ['hoge']}]
+  ],
+  extends: "stylelint-config-standard",
 };
