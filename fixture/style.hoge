@@ -2,11 +2,8 @@
 // ここはコメント部分
 
 // {{}}で囲われたところがstyle定義箇所
-// -ないプロパティはlower camel
-// -あるプロパティは""で囲う
 {{
-  backgroundColor => "#FFFFFF",
-  "align-items" => "center"
+  color => red,
+  color => blue,
+  backgroundColor => green,
 }}
-
-{{backgroundColor => "#FFFFFF","align-items" => "center"}}

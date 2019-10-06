@@ -34,9 +34,10 @@
     }
   },
   "dependencies": {
-    "lodash": "^4.17.15"
+    "change-case": "^3.1.0"
   },
   "devDependencies": {
+    "@mapbox/stylelint-processor-markdown": "^0.3.1",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.4.0",
